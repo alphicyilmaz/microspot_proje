@@ -1,0 +1,1 @@
+alias robot_baslat='export ROS_DOMAIN_ID=30 && source ~/microspot_ws/install/setup.bash && export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/microspot_ws/src/champ/champ_description/meshes && ros2 launch champ_description description.launch.py & sleep 2 && rviz2 & sleep 3 && ros2 run joint_state_publisher_gui joint_state_publisher_gui'
